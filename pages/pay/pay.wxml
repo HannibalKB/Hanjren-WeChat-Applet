@@ -1,0 +1,47 @@
+<view class="pay_address_wrap">
+	<!--<view class="address_icon"></view>-->
+	<image class="address_icon" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+	<view class="pay_address">
+		<view class="pay_contact">
+			<span style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">{{userInfo.nickName}}</span>
+			<span>{{userInfo.phone}}</span>
+		</view>
+		<view>
+			 {{item.address}}
+		</view>
+	</view>
+	<view class="pay_address_sel"></view>
+</view>
+<view class="pay_order_wrap">
+	<view class="table_header">
+		<span class="table_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">商品</span>
+		<!--<span class="table_goods_num">数量</span>-->
+		<span class="table_goods_con" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">总价</span>
+	</view>
+	<view class="table_content">
+		<view class="table_content_item">
+			<span class="table_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">{{name}}</span>
+			<!--<span class="table_goods_num">10</span>-->
+			<span class="table_goods_con" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">{{jg}}.00 元</span>
+		</view>
+		
+	</view>
+</view>
+<view style="color:red;font-size:20px;font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;margin-top:20px;">
+	购买须知：
+</view>
+<view class="pay_remarks">
+	<input placeholder="商品均到店消费,购买需付30元预约金" type="text" />
+	<input placeholder="未消费30个工作日内可退" type="text" />
+	<input placeholder="付款前，有任何需要咨询的问题，请点击在线咨询" type="text" />
+	<input placeholder="付款后，凭借订单号到院消费" type="text" />
+	<input placeholder="如有其他问题，请联系客服  02089857985" type="text" />
+	
+</view>
+<view class="car_bot">
+	<view class="car_bot_wrap" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+		总价
+		<span class="car_order_confirm" bindtap="toPay" data-name="{{name}}" data-jg="{{jg}}">前往支付</span>
+		<span class="car_total_money">¥{{jg}}.00</span>
+	</view>
+</view>

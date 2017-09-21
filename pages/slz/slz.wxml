@@ -1,0 +1,64 @@
+<!--pages/slz/slz.wxml-->
+
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="goods_infor_top">
+  <view class="goods_title" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+    {{title}}
+    <view class="goods_collect_btn" bindtap="collect">
+      <view wx:if="{{iscollect}}">
+        <image src="http://sc.hanjren.com/image/icon-aixin.png" class="goods_collect_img"></image>
+      </view>
+      <view wx:else>
+        <image src="http://sc.hanjren.com/image/icon-aixin1.png" class="goods_collect_img"></image>
+      </view> 
+      <text wx:if="{{iscollect}}">已收藏</text>
+      <text wx:else>收藏</text>
+    </view>
+  </view>
+  <view class="goods_price">
+    <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥{{tj}}</text>
+    <text class="goods_old_price">¥17800</text>
+  </view>
+  <view class="goods_deliver" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+    韩式品质 相约佳人
+  </view>
+</view>
+<view class="goods_infor_pre">
+  <view class="goods_infor_txt">
+    <view class="goods_infor_brand"></view>
+    <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">很多人以为只要有双眼皮就是美眼了，于是每天不厌其烦地重复贴双眼皮贴、画眼线、涂双眼皮胶水，当然也有实在觉得麻烦就随便找家整形机构割双眼皮的，以为这样就可以做女神了，真是大错特错。殊不知，并不是所有的双眼皮都是美眼。美眼除了双眼皮，还要看眼形、大小、眼神等综合因素。</text>
+  </view>
+</view>
+
+<view class="goods_detail">
+  <view class="goods_detail_title" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">商品详情</view>
+   <navigator url="/pages/rj/rj">
+  <view>
+    <image bindload="cusImageLoad" src="http://sc.hanjren.com/image/rrrrr.jpg" style="width:{{imageWidth}};height:{{imageHeight}}"></image>
+  </view>
+  </navigator>
+</view>
+<view class="goods_bottom"></view>
+<view class="goods_bottom_btn">
+  <view>
+    <view class="goods_one">
+      <view class="goods_car_num">
+        <!--<span>{{item.carSum}}</span>-->
+      </view>
+    </view>
+    
+        <view class="goods_half_half red"><navigator url="/pages/index/index" open-type="switchTab">返回首页</navigator></view>
+    <button open-type="contact" class="goods_half_half blue">在线沟通</button>
+        <!--<view class="goods_half_half blue"><navigator url="/pages/gt/gt">在线沟通</navigator></view>-->
+        <view class="goods_half_half green"><navigator url="/pages/pay/pay?name={{title}}&&jg={{tj}}">立即下单</navigator></view>
+  </view>
+</view>

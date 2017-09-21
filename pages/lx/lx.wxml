@@ -1,0 +1,23 @@
+<!--pages/lx/lx.wxml-->
+
+<view class="wrapper">
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <form bindsubmit="openLocation">
+        <!--<view class="page-body-form">
+          <text class="page-body-form-key">经度</text>
+          <input class="page-body-form-value" type="text" value="{{location.longitude}}" name="longitude" />
+          <text class="page-body-form-key">维度</text>
+          <input class="page-body-form-value" type="text" value="{{location.latitude}}" name="latitude" />
+        </view>-->
+        <image src="http://sc.hanjren.com/image/hj.jpg" style="width:100%;display:inline-block;margin-top:18px"></image>
+        <view class="page-body-buttons">
+          <!--<button class="page-body-button" type="primary" bindtap="getLocation">获取位置</button>-->
+          <!--<button class="page-body-button" type="primary" formType="submit">查看位置</button>-->
+          <button class="page-body-button" type="primary" bindtap="chooseLocation">来院路线</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
+<image src="http://sc.hanjren.com/images/address_pic1.png" style="margin-left:7%;margin-top:20px"></image>

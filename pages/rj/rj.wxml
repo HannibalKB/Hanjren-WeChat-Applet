@@ -1,0 +1,28 @@
+
+<!--<view class="container">
+    <form bindsubmit="formSubmit">
+        
+        <view class="row">
+            <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">评价：</text>
+            <input type="text" name="word" placeholder="请输入评价，认真评价更有优惠哦！" style="height:50%"/>
+            
+            
+        </view>
+        
+        <view class="row">
+            <button type="primary" form-type="submit" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">发送</button>
+        </view>
+
+    </form>
+
+   <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 100%; height: 450rpx"/>
+        <view class="row" catchtap="chooseimage" style="margin-top:41%">
+            <button type="primary" form-type="submit" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">上传图片</button>
+        </view>
+    
+</view>-->
+
+<form bindsubmit="evaSubmit">
+   <textarea name="word" maxlength="500" value="{{evaContent}}" class="weui-textarea" placeholder="填写内容(12-500字)"bindblur="charChange" />     
+   <button type="primary" form-type="submit" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">提交</button>
+ </form>

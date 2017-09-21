@@ -1,0 +1,66 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496380372698&di=15126bdf8fca3d5205c2ea265ebb6b96&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20150703%2Ftooopen_sy_132714591175.jpg" style="width:100%;"></image>-->
+</view>
+<view class="goods_infor_top">
+  <view class="goods_title" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+    {{title}}
+    <view class="goods_collect_btn" bindtap="collect">
+      <view wx:if="{{iscollect}}">
+        <image src="http://sc.hanjren.com/image/icon-aixin.png" class="goods_collect_img"></image>
+      </view>
+      <view wx:else>
+        <image src="http://sc.hanjren.com/image/icon-aixin1.png" class="goods_collect_img"></image>
+      </view> 
+      <text wx:if="{{iscollect}}">已收藏</text>
+      <text wx:else>收藏</text>
+    </view>
+  </view>
+  <view class="goods_price">
+    <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥{{tj}}</text>
+    <!--<text class="goods_old_price">¥17800</text>-->
+    <text style="color:#000;font-size:12px;float:right;">               在线沟通了解详情</text>
+  </view>
+  <view class="goods_deliver" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+    韩式品质 相约佳人
+  </view>
+</view>
+<view class="goods_infor_pre">
+  <view class="goods_infor_txt">
+    <view class="goods_infor_brand"></view>
+    <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">{{desc}}</text>
+  </view>
+</view>
+
+<view class="goods_detail">
+  <view class="goods_detail_title" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">商品详情</view>
+
+  <navigator url="/pages/rj/rj">
+  <view>
+    <!--<image bindload="cusImageLoad" src="http://sc.hanjren.com/image/rrrrr.jpg" style="width:{{imageWidth}};height:{{imageHeight}}"></image>-->
+    <image bindload="cusImageLoad" src="{{pic}}" style="width:{{imageWidth}};height:{{imageHeight}}"></image>
+  </view>
+  </navigator>
+</view>
+<view class="goods_bottom"></view>
+<view class="goods_bottom_btn">
+  <view>
+    <view class="goods_one">
+      <view class="goods_car_num">
+        <!--<span>{{item.carSum}}</span>-->
+      </view>
+    </view>
+    
+        <view class="goods_half_half red"><navigator url="/pages/index/index" open-type="switchTab">返回首页</navigator></view>
+    <button open-type="contact" class="goods_half_half blue">在线咨询</button>
+        
+        <view class="goods_half_half green"><navigator url="/pages/pay/pay?name={{title}}&&jg={{tj}}">立即下单</navigator></view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--pages/gt/gt.wxml-->
+
+
+<image src="http://sc.hanjren.com/image/wx.png" style="width:{{imageWidth}};height:{{imageHeight}};line-height:20%;margin-left:5%" class="wximg"></image>
+<view class="box" style="margin-top:30px">
+    <view style="font-size:20px;font-weight:bold;text-align:center">韩佳人医疗美容</view>
+<view style="font-size:20px;font-weight:bold;text-align:center">添加微信</view>
+<view style="font-size:20px;font-weight:bold;text-align:center">在线沟通</view>
+
+</view>
+

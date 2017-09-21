@@ -1,0 +1,57 @@
+<!--抽奖-->
+
+
+<view class="container-out">
+  <view class="circle" wx:for="{{circleList}}" style="top:{{item.topCircle}}rpx;left:{{item.leftCircle}}rpx;background-color: {{(index%2==0)?colorCircleFirst:colorCircleSecond}};"></view>
+  <view class="container-in">
+    <view class="content-out" wx:for="{{awardList}}" style="top:{{item.topAward}}rpx;left:{{item.leftAward}}rpx;background-color: {{(index==indexSelect)?colorAwardSelect:colorAwardDefault}};">
+      <image class="award-image" src="{{item.imageAward}}"></image>
+    </view>
+    <view class="start-btn" bindtap="startGame" style=" background-color:{{isRunning?'#e7930a':'#ffe400'}}">START</view>
+  </view>
+</view>
+
+
+
+<view class="active_block">
+    <view class="active_item_title">
+        <view class="active_title_wrap">
+            <view class="active_title">限时折扣</view>
+        </view>
+    </view>
+    <navigator url="../slz/slz?tj=880&title=韩佳人瘦脸针">
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="http://sc.hanjren.com/image/test.jpg" style="width: 100%;height: {{imageHeight}}"></image>
+        </view>
+        <view class="active_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+            选择韩佳人瘦脸针开启V脸之旅
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥880</text>
+            <text class="active_old_price" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥1980</text>
+            <!--<text class="active_time">还剩1天20小时</text>-->
+        </view>
+    </view>
+    
+    </navigator> 
+
+
+<navigator url="../slz/slz?tj=880&title=韩佳人自然无痕隆下巴">
+    <view class="active_item">
+        <view>
+            <image bindload="cusImageLoad" src="http://sc.hanjren.com/image/diy1.jpg" style="width: 100%;height: {{imageHeight}}"></image>
+        </view>
+        <view class="active_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
+            韩佳人自然无痕隆下巴
+        </view>
+        <view class="active_item_infor">
+            <text class="active_new_price" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥880</text>
+            <text class="active_old_price" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">¥1980</text>
+            <!--<text class="active_time">还剩1天20小时</text>-->
+        </view>
+    </view>
+</navigator> 
+
+
+</view>

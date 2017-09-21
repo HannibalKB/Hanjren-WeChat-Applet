@@ -1,0 +1,6 @@
+<!--pages/ys/ys.wxml-->
+<image src="http://sc.hanjren.com/image/ys1.png" style="width:100%;height:{{imageHeight}}"></image>
+<image src="http://sc.hanjren.com/image/ys2.png" style="width:100%;height:{{imageHeight}}"></image>
+<image src="http://sc.hanjren.com/image/ys3.png" style="width:100%;height:{{imageHeight}}"></image>
+<image src="http://sc.hanjren.com/image/ys4.png" style="width:100%;height:{{imageHeight}}"></image>
+<!--<image src="http://sc.hanjren.com/image/ys5.png" style="width:100%;height:{{imageHeight}}"></image>-->
