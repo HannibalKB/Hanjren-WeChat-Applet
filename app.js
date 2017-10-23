@@ -17,7 +17,7 @@ App({
       success: function(res) {
         console.log(res);
         wx.request({
-          url: 'https://sc.hanjren.com/index.php/admin/list/getOpenid',
+          url: 'https://yourdomin/index.php/admin/list/getOpenid',
           data: {
             code:res.code
           },
