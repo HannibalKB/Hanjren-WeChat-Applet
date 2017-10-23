@@ -14,10 +14,10 @@
     {{title}}
     <view class="goods_collect_btn" bindtap="collect">
       <view wx:if="{{iscollect}}">
-        <image src="http://sc.hanjren.com/image/icon-aixin.png" class="goods_collect_img"></image>
+        <image src="http://xxxxxx/image/icon-aixin.png" class="goods_collect_img"></image>
       </view>
       <view wx:else>
-        <image src="http://sc.hanjren.com/image/icon-aixin1.png" class="goods_collect_img"></image>
+        <image src="http://xxxxxxx/image/icon-aixin1.png" class="goods_collect_img"></image>
       </view> 
       <text wx:if="{{iscollect}}">已收藏</text>
       <text wx:else>收藏</text>
@@ -44,7 +44,7 @@
 
   <navigator url="/pages/rj/rj">
   <view>
-    <!--<image bindload="cusImageLoad" src="http://sc.hanjren.com/image/rrrrr.jpg" style="width:{{imageWidth}};height:{{imageHeight}}"></image>-->
+    <!--<image bindload="cusImageLoad" src="http://xxxxx/image/rrrrr.jpg" style="width:{{imageWidth}};height:{{imageHeight}}"></image>-->
     <image bindload="cusImageLoad" src="{{pic}}" style="width:{{imageWidth}};height:{{imageHeight}}"></image>
   </view>
   </navigator>
