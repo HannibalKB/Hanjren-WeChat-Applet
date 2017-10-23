@@ -22,7 +22,7 @@
     <navigator url="../slz/slz?tj=880&title=韩佳人瘦脸针">
     <view class="active_item">
         <view>
-            <image bindload="cusImageLoad" src="http://sc.hanjren.com/image/test.jpg" style="width: 100%;height: {{imageHeight}}"></image>
+            <image bindload="cusImageLoad" src="http://xxxx/image/test.jpg" style="width: 100%;height: {{imageHeight}}"></image>
         </view>
         <view class="active_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
             选择韩佳人瘦脸针开启V脸之旅
@@ -40,7 +40,7 @@
 <navigator url="../slz/slz?tj=880&title=韩佳人自然无痕隆下巴">
     <view class="active_item">
         <view>
-            <image bindload="cusImageLoad" src="http://sc.hanjren.com/image/diy1.jpg" style="width: 100%;height: {{imageHeight}}"></image>
+            <image bindload="cusImageLoad" src="http://xxxx/image/diy1.jpg" style="width: 100%;height: {{imageHeight}}"></image>
         </view>
         <view class="active_goods_name" style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu">
             韩佳人自然无痕隆下巴
