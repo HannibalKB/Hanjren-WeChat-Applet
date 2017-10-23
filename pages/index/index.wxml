@@ -35,35 +35,35 @@
   
   <navigator url="../spdetail/spdetail?tj={{zd1}}&&title={{name1}}&desc=双眼皮修复就是通过手术或非手术改善因为天生或是后天双眼皮手术导致的双眼皮重睑线不明显、部分及完全消失，双眼皮过宽或过窄、弧度中断、双侧不对称、双眼皮过厚，瘢痕增生、眼睑上抬困难、眼睑闭合不良等种种双眼皮所存在的问题。改善修复这些问题，使得双眼皮外观自然。&&pic={{pic1}}">
   <view class="tejia">
-    <image src="http://sc.hanjren.com/images/ttj.jpg" style="width:100%;height:100%"></image>
+    <image src="http://xxxxx/images/ttj.jpg" style="width:100%;height:100%"></image>
   </view>
   </navigator>
   <view class="commen_title" style="text-align:center;background:#A0DDEF;">
     <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;font-weight:bold;color:#FF4500;">主打项目</text>
   </view>
 
-<!--<image src="http://sc.hanjren.com/image/abc.jpg"></image>-->
+<!--<image src="http://xxxxx/image/abc.jpg"></image>-->
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd2}}&&title={{name2}}&&desc={{desc2}}&&pic={{pic2}}">
-    <image src="http://sc.hanjren.com/image/ss.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/ss.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd3}}&&title={{name3}}&&desc={{desc3}}&&pic={{pic3}}">
-    <image src="http://sc.hanjren.com/image/sss.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/sss.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd4}}&&title={{name4}}&&desc={{desc4}}&&pic={{pic4}}">
-    <image src="http://sc.hanjren.com/image/qqq.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/qqq.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd5}}&&title={{name5}}&&desc={{desc5}}&&pic={{pic5}}">
-    <image src="http://sc.hanjren.com/image/wwww.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/wwww.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
@@ -73,43 +73,43 @@
   </view>
   <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd6}}&&title={{name6}}&&desc={{desc6}}&&pic={{pic6}}">
-    <image src="http://sc.hanjren.com/image/ee1.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxx/image/ee1.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd7}}&&title={{name7}}&&desc={{desc7}}&&pic={{pic7}}">
-    <image src="http://sc.hanjren.com/image/ee2.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxx/image/ee2.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd8}}&&title={{name8}}&&desc={{desc8}}&&pic={{pic8}}">
-    <image src="http://sc.hanjren.com/image/ee3.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/ee3.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd9}}&&title={{name9}}&&desc={{desc9}}&&pic={{pic9}}">
-    <image src="http://sc.hanjren.com/image/ee4.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxxx/image/ee4.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd10}}&&title={{name10}}&&desc={{desc10}}&&pic={{pic10}}">
-    <image src="http://sc.hanjren.com/image/bnss.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/bnss.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
 <view style="width:50%;display:inline-block;">
 <navigator url="../spdetail/spdetail?tj={{zd11}}&&title={{name11}}&&desc={{desc11}}&&pic={{pic11}}">
-    <image src="http://sc.hanjren.com/image/xqp.jpg" style="width:100%;height:200px;"></image>
+    <image src="http://xxxxx/image/xqp.jpg" style="width:100%;height:200px;"></image>
     </navigator>
 </view>
 
   <view class="commen_title" style="text-align:center;background:#A0DDEF;">
     <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;font-weight:bold;color:#FF4500;">医院环境</text>
   </view>
-  <image src="http://sc.hanjren.com/image/hj.jpg" class="pic" width="100%"></image>
+  <image src="http://xxxxx/image/hj.jpg" class="pic" width="100%"></image>
   <view class="commen_title" style="text-align:center;background:#A0DDEF;">
     <text style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;font-weight:bold;color:#FF4500;">专家团队</text>
   </view>
@@ -123,12 +123,8 @@
         </swiper-item>  
       </block>  
 </swiper>
-  <!--<image src="http://sc.hanjren.com/image/ys.jpg" class="pic" style="height:270px" width="100%"></image>-->
 
-
-  <!--<image src="http://sc.hanjren.com/images/haha.png" class="pic" style="height:270px" width="100%"></image>-->
-
-<image src="http://sc.hanjren.com/images/haha.jpg" class="pic" style="height:270px" width="100%"></image>
+<image src="http://xxxxx/images/haha.jpg" class="pic" style="height:270px" width="100%"></image>
   <!--<view style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;color:#000;margin-top:50px">广州市天河区中山大道中澳柏商务中心5楼</view>
   <view style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;color:#000;">02089857585</view>
 <view style="font-family:'Microsoft YaHei',微软雅黑,'MicrosoftJhengHei',华文细黑,STHeiti,MingLiu;color:#000;">欢迎来院体验</view>-->
